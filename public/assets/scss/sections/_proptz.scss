@@ -1,0 +1,46 @@
+
+
+.our-proptz {
+	.proptz {
+		max-width: 575px;
+		.progres-sec {
+			margin-bottom: 41px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			> h5 {
+				display: inline-block;
+				color: rgba(255,255,255,0.50);
+				font-size: 16px;
+				margin-bottom: 10px;
+			}
+			.progress {
+				background-color: #575757;
+				height: 7px;
+				background-color:#555555;
+				border-radius: 0;
+				position: relative;
+				overflow: inherit;
+				> span {
+					display: inline-block;
+					color: rgba(255,255,255,0.50);
+					font-size: 16px;
+					position: absolute;
+					top: -29px;
+					right: 0;
+				}
+				.progress-bar {
+					width:0;
+					background-color: $primary-color;
+					@include transition(all 0.4s ease-in-out);
+				}
+			}
+		}
+	}
+	.img-th {
+		padding-left: 5px;
+		img {
+			filter: grayscale(1);
+		}
+	}
+}

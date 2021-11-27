@@ -1,0 +1,35 @@
+
+.error-page {
+	background-image: url(https://via.placeholder.com/1920x952);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 261px 0 200px;
+	.error-content {
+		max-width: 610px;
+		margin: 0 auto;
+		position: relative;
+		> h2 {
+			color: #fff;
+			font-size: 309px;
+			font-family: $third-fontfamily;
+			font-weight: 700;
+			margin-bottom: 10px;
+			line-height: 309px; 
+			margin-bottom: -3px;
+		}
+		> h4 {
+			color: #ffffff;
+			font-size: 35px;
+			font-weight: 700;
+			margin-bottom: 32px;
+		}
+		p {
+			color: rgba(255,255,255,0.50);
+			font-size: 20px;
+			line-height: 32px;
+			max-width: 440px;
+			margin: 0 auto;
+			margin-bottom: 61px;
+		}
+	}
+}

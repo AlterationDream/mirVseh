@@ -1,0 +1,82 @@
+
+
+
+.contact_section {
+	.contact_info {
+		ul {
+			li {
+				display: flex;
+				align-items: center;
+				flex-wrap: wrap;
+				margin-bottom: 37px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+				> span {
+					flex: 0 0 60px;
+					max-width: 60px;
+					i {
+						&:before {
+							font-size: 40px;
+							color: $primary-color;
+						}
+					}
+				}
+				.ccn-info {
+					flex: 0 0 86%;
+					max-width: 86%;
+					padding-left: 13px;
+					p {
+						color: #262626;
+						font-size: 26px;
+						line-height: 34px;
+						span {
+							display: inline-block;
+							color: #7a7a7a;
+							min-width: 130px;
+						}
+					}
+					> a {
+						font-size: 25px;
+						display: block;
+						color: #262626;
+					}
+				}
+			}
+		}
+	}
+	.cnst-form {
+		background-color: #eeeeee;
+		padding: 74px 105px 77px;
+		.section-title {
+			margin-bottom: 78px;
+			span {
+				color: rgba(38,38,38,0.70);
+			}
+		}
+		.consulation-form form {
+			margin-bottom: -55px;
+			background-color: inherit;
+			border:0;
+			padding: 0;
+			.row {
+				margin: 0 -30px;
+			}
+			.col-lg-10 {
+				padding: 0 30px;
+			}
+			.form-group .form-control {
+				border-bottom-color:#c6c6c6;
+			}
+			.form-group {
+				margin-bottom: 55px;
+				.form-control {
+					color: #383838;
+				}
+			}
+			.submit {
+				margin-top: 0;
+			}
+		}
+	}
+}

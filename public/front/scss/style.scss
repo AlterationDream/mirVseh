@@ -1,0 +1,43 @@
+
+@import 'fonts';
+@import 'reset';
+@import 'base';
+@import 'transition';
+@import 'custom';
+@import 'preloader';
+
+// SECTIONS
+
+@import 'sections/header';
+@import 'sections/banner';
+@import 'sections/about-home';
+@import 'sections/section-title';
+@import 'sections/services';
+@import 'sections/blog-posts';
+@import 'sections/posts';
+@import 'sections/consultation-form';
+@import 'sections/team';
+@import 'sections/testimonials';
+
+// ABOUT PAGE 
+@import 'sections/pager-inner';
+@import 'sections/counter';
+@import 'sections/proptz';
+@import 'sections/price';
+@import 'sections/service-details';
+@import 'sections/sidebar';
+@import 'sections/contact';
+@import 'sections/404';
+@import 'sections/blog';
+@import 'sections/faqs';
+@import 'sections/burger-menu';
+
+
+
+@import 'footer';
+
+//  RESPONSIVE 
+
+@import 'responsive';
+
+

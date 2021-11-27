@@ -1,0 +1,48 @@
+
+
+.consulation-form {
+	.row {
+		.col-lg-5 {
+			padding: 0 30px;
+		}
+	}
+	form {
+		border:1px solid #484848;
+		background-color: rgba(37,37,37,0.50);
+		max-width: 930px;
+		padding: 95px 70px 80px;
+	}
+	.submit {
+		color: #fff;
+		background-color: #f43930;
+		border-radius: 50%;
+		line-height: 80px;
+		height: 80px;
+		width: 80px;	
+		margin-top: -40px;
+	}
+	.form-group {
+		margin-bottom: 0;
+	}
+}
+
+
+.form-group {
+	.form-control {
+		width: 100%;
+		background: inherit;
+		border:0;
+		border-radius: 0;
+		padding: 0;
+		border-bottom: 2px solid #929292;
+		padding-bottom: 15px;
+		color: #ffffff;
+		font-size: 15px;
+		&:focus {
+			background-color: inherit;
+			outline: none;
+			box-shadow: inherit;
+		}
+	}
+}
+

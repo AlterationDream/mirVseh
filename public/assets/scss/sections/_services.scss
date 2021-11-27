@@ -1,0 +1,48 @@
+
+.services {
+	.service-col {
+		max-width: 260px;	
+		h2 {
+			color: #ffffff;
+			font-size: 56px;
+			font-weight: 400;
+			font-family: $third-fontfamily;
+			margin-bottom: 4px;
+			span {
+				color: #f43930;
+			}
+		}
+		h4 {
+			color: #ffffff;
+			font-size: 18px;
+			font-weight: 600;
+			margin-bottom: 11px;
+		}
+		p {
+			color: rgba(255,255,255,0.60);
+			font-size: 15px;
+			font-weight: 500;
+			line-height: 19px;
+		}
+	}
+}
+
+.smpl-txt {
+	background-color: rgba(37,37,37,0.70);
+	border:1px solid #6e6e6e;
+	padding: 63px 88px 47px;
+	margin-top: -238px;
+	margin-bottom: 55px;
+	h4 {
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 23px;
+	}
+	p {
+		color: rgba(255,255,255,0.40);
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 15px;
+	}
+}

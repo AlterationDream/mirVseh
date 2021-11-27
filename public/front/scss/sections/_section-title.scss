@@ -1,0 +1,26 @@
+
+
+.section-title {
+	position: relative;
+	margin-bottom: 83px;
+	.h-title {
+		color: #ffffff;
+		font-size: 68px;
+		font-weight: 700;
+		line-height: 60px;
+		max-width: 440px;
+		&.dark-clr {
+			color: #262626;
+		}
+	}
+	p {
+		max-width: 40%;
+		flex: 0 0 40%;
+		margin-left: auto;
+	}
+	> span {
+		display: block;
+		font-size: 16px;
+		margin-top: 21px;
+	}
+}

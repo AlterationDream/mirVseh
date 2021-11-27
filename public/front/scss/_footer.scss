@@ -1,0 +1,113 @@
+
+
+footer {
+	background-color:#262626;
+	padding: 112px 0 105px;
+	.top-footer {
+		margin-bottom: 77px;
+		.widget-about {
+			> img {
+				margin-bottom: 47px;
+			}
+			> p {
+				font-size: 16px;
+				line-height: 23px;
+				color: rgba(255,255,255,0.50);
+				margin-bottom: 31px;
+			}
+			ul {
+				li {
+					display: block;
+					color: rgba(255,255,255,0.50);
+					font-size: 18px;
+					margin-bottom: 28px;
+					&:last-child {
+						margin-bottom: 0;
+					}
+					a {
+						font-size: 16px;
+					}
+				}
+			}
+		}
+		.widget-title {
+			color: #ffffff;
+			font-size: 16px;
+			font-weight: 700;
+			margin-bottom: 46px;
+		}
+		.widget-links {
+			ul {
+				li {
+					display: block;
+					margin-bottom: 20px;
+					&:last-child {
+						margin-bottom: 0;
+					}
+					a {
+						display: block;
+						color: rgba(255,255,255,0.50);
+						font-size: 16px;
+						position: relative;
+						&:before {
+							content: '';
+							position: absolute;
+							top: 50%;
+							left: 0;
+							width: 0;
+							height: 1px;
+							background-color: $primary-color;
+							opacity: 0;
+							visibility: hidden;
+							@include transform(translateY(-50%));
+							@include transition(all 0.4s ease-in-out);
+						}
+						&:hover {
+							color: #fff;
+							padding-left: 32px;
+							&:before {
+								opacity: 1;
+								visibility: visible;
+								width: 20px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.bt-links {
+		li {
+			display: inline-block;
+			padding: 0 20px;
+			position: relative;
+			&:before {
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 100%;
+				width: 5px;
+				height: 5px;
+				background-color: #858585;
+				@include transform(translateY(-50%));
+				@include radius(50%);
+			}
+			&:first-child {
+				padding-left: 0;
+			}
+			&:last-child {
+				padding-right: 0;
+				&:before {
+					display: none;
+				}
+			}
+			a {
+				display: inline-block;
+				color: rgba(255,255,255,0.50);
+				padding-bottom: 4px;
+				font-size: 14px;
+				border-bottom: 1px solid #686868;
+			}
+		}
+	}
+}

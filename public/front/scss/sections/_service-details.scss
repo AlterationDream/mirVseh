@@ -1,0 +1,137 @@
+
+
+
+.page-details {
+	max-width: 789px;
+	h2 {
+		color: #262626;
+		font-size: 68px;
+		line-height: 60px;
+		margin-bottom: 30px;
+		max-width: 70%;
+	}
+	> img {
+		margin-bottom: 29px;
+		filter:grayscale(1);
+	}
+	p {
+		color: #262626;
+		font-size: 18px;
+		margin: 20px 0;
+	}
+	.team-section {
+		margin-top: 77px;
+		margin-bottom: 53px;
+		h2 {
+			margin-bottom: 66px;
+		}
+	}
+	.our-proptz {
+		.proptz {
+			.h-title {
+				margin-bottom: 40px;
+			}
+			.progres-sec {
+				h5 {
+					color: rgba(38,38,38,0.70);
+				}
+				.progress {
+					> span {
+						color: rgba(38,38,38,0.70);
+					}
+				}
+			}
+		}
+	}
+	.counter-section {
+		margin: 73px 0 80px;
+		.counter-col {
+			h2 {
+				font-size: 65px;
+				margin-bottom: 9px;
+			}
+			> span {
+				font-size: 19px;
+			}
+		}
+	}
+	.team-details-sec {
+		margin-bottom: 71px;
+		.row {
+			margin: 0;
+			.col-md-6 {
+				padding: 0;
+			}
+		}
+		.tm-img {
+			img {
+				filter: grayscale(1);
+			}
+		}
+		.team-m-info {
+			height: 100%;
+			padding: 0 40px 0 55px;
+			height: 100%;
+			background-color: #262626;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			position: relative;
+			&:before {
+				content: '';
+				position: absolute;
+				top: 50%;
+				right: 0;
+				@include transform(translateY(-50%));
+				width: 6px;
+				height: 115px;
+				background-color: $primary-color;
+			}
+		}
+		.tm-info {
+			h3 {
+				color: #ffffff;
+				font-size: 36px;
+				font-weight: 700;
+				margin-bottom: 2px;
+			}
+			> span {
+				display: inline-block;
+				color: rgba(255,255,255,0.50);
+				font-size: 16px;
+				margin-bottom: 10px;
+			}
+			p {
+				color: rgba(255,255,255,0.50);
+				font-size: 14px;
+				line-height: 21px;
+				margin-bottom: 21px;
+				margin-bottom: 40px;
+			}
+		}
+	}
+	.svs-posts {
+		margin-bottom: 72px;
+		.section-title {
+			margin-bottom: 18px;
+		}
+		.post {
+			.post-info {
+				padding-left: 50px;
+				padding-right: 50px;
+			}
+		}
+	}
+}
+
+.social_links {
+	li {
+		display: inline-block;
+		margin-right: 20px;
+		a {
+			display: inline-block;
+			color: #fff;
+			font-size: 16px;
+		}
+	}
+}

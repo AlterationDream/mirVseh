@@ -1,0 +1,26 @@
+
+.counter-section {
+	.counter-col {
+		h2 {
+			font-size: 80px;
+			color: $primary-color;
+			font-family: $third-fontfamily;
+			font-weight: 400;
+			margin-top: -21px;
+		}
+		> span {
+			display: inline-block;
+			color: #656565;
+			font-size: 24px;
+			max-width: 125px;
+		}
+	}
+	&.style2 {
+		margin-bottom: -22px;
+		padding-top: 145px;
+		.row {
+			max-width: 970px;
+			margin: 0 auto;
+		}
+	}
+}

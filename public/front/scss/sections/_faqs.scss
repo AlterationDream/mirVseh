@@ -1,0 +1,114 @@
+
+
+.procedures {
+	margin-bottom: 82px;
+	ul {
+		li {
+			display: inline-block;
+			width: 250px;
+			position: relative;
+			margin-bottom: 60px;
+			&:before {
+				content: '';
+				position: absolute;
+				top: 50%;
+				right: 0;
+				width: 19px;
+				height: 37px;
+				background-image: url(../images/arrow.png);
+				background-repeat: no-repeat;
+				@include transform(translateY(-50%));
+			}
+			&.v2 {
+				width: 370px;
+				padding-left: 145px;
+			}
+			&.v3 {
+				width: 570px;
+				padding-left: 145px;
+				.producere {
+					max-width: 220px;
+				}
+				&:before {
+					display: none;
+				}
+			}
+			&.v4 {
+				width: 520px;
+				padding-left: 245px;
+				.producere {
+					max-width: 100%;
+				}
+			}
+			&.v5 {
+				padding-left: 145px;
+				width: 390px;
+				.producere {
+					max-width: 100%;
+				}
+			}
+			&.v6 {
+				width: 345px;
+				padding-left: 130px;
+				&:before {
+					display: none;
+				}
+			}
+			.producere {
+				max-width: 130px;
+				.prod-icon {
+					margin-bottom: 28px;
+					max-width: 75px;
+					position: relative;
+					> h3 {
+						color: #262626;
+						font-size: 31px;
+						font-family: $third-fontfamily;
+						position: absolute;
+						top: -5px;
+						right: -50px;
+					}
+				}
+				h4 {
+					color: #262626;
+					font-size: 20px;
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}
+
+.toggle {
+	.toggle-item {
+		border:1px solid #c7c7c7;
+		padding: 43px 90px 46px;
+		margin-bottom: 30px;
+		h2 {
+			color: #262626;
+			font-size: 20px;
+			font-weight: 600;
+			font-family: $primary-fontfamily;
+			position: relative;
+			cursor: pointer;
+			&:before {
+				content: '\f105';
+				position: absolute;
+				top: 50%;
+				left: -25px;
+				font-family: 'fontawesome';
+				color: #959595;
+				font-size: 20px;
+				@include transform(translateY(-50%));
+			}
+		}
+		.content {
+			padding-top: 14px;
+			p {
+				color: rgba(38,38,38,0.50);
+				font-size: 15px;
+				line-height: 24px;
+			}
+		}
+	}
+}

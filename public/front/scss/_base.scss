@@ -1,0 +1,35 @@
+
+$primary-fontfamily : 'Montserrat', sans-serif;
+$secondary-fontfamily : 'Cormorant', serif;
+$third-fontfamily : 'Cinzel', serif;
+
+$basic-size : 16px;
+$sec-spacing: 200px 0;
+$sec-spacing2: 170px 0;
+
+$para-color: rgba(38,38,38,0.6);
+$primary-color: #f43930;
+
+@mixin transition($property) {
+	-webkit-transition: $property;
+	-ms-transition: $property;
+	transition: $property;
+}
+
+@mixin transform($property) {
+	-webkit-transform: $property;
+	-ms-transform: $property;
+	transform: $property;
+}
+
+@mixin boxshadow($property) {
+	-webkit-box-shadow: $property;
+	-ms-box-shadow: $property;
+	box-shadow: $property;
+}
+
+@mixin radius($property) {
+	-webkit-border-radius: $property;
+	-ms-border-radius: $property;
+	border-radius: $property;
+}

@@ -1,0 +1,55 @@
+
+
+.testimonials {
+	.testimonial {
+		background-color: rgba(37,37,37,0.70);
+		padding: 50px 55px;
+		border:1px solid #7c7c7c;
+		position: relative;
+		margin-bottom: 48px;
+		margin-top: 9px;
+		&:before {
+			content: '';
+			position: absolute;
+			top: -9px;
+			right: 75px;
+			width: 56px;
+			height: 40px;
+			background-image: url(../images/quote.png);
+			background-repeat: no-repeat;
+		}
+		.testi-thumb {
+			flex: 0 0 77px;
+			max-width: 77px;
+			img {
+				border-radius: 50%;
+				filter: grayscale(1);
+			}
+		}
+		.testi-info {
+			padding-left: 25px;
+			flex: 0 0 90%;
+			max-width: calc(100% - 77px);
+			h3 {
+				color: #ffffff;
+				font-size: 28px;
+				font-weight: 700;
+				text-transform: capitalize;
+			}
+			> span {
+				display: block;
+				font-size: 14px;
+				color: rgb(255,255,255,0.40);
+			}
+			p {
+				color: #ffffff;
+				font-size: 14px;
+				line-height: 20px;
+				margin-top: 19px;
+				margin-bottom: 25px;
+				padding-right: 50px;
+			}
+		}
+	}
+}
+
